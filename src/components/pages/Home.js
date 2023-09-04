@@ -2,16 +2,16 @@ import React, { useState, useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import conComemoracao from "../assets/img/news_enfermagem_condado.jpg";
-import vttTanqueOxigenio from "../assets/img/news_tanque.png";
-import tbbAmbulatorio from "../assets/img/news_inauguracao_ambulatorio_tbb.jpg";
-import sjeCampanha from "../assets/img/news_sje.jpg";
-import allCampanhaVacinacao from "../assets/img/news_vacinacao.jpg";
-import allConsumoAgua from "../assets/img/news_agua.jpg";
-import allTransparenciaPortal from "../assets/img/news_portal.png";
-import allRedesSociais from "../assets/img/news_agua.jpg";
-import allSaudavel from "../assets/img/news_frutas.jpg";
-import "./App.css";
+import conComemoracao from "../../assets/img/news_enfermagem_condado.jpg";
+import vttTanqueOxigenio from "../../assets/img/news_tanque.png";
+import tbbAmbulatorio from "../../assets/img/news_inauguracao_ambulatorio_tbb.jpg";
+import sjeCampanha from "../../assets/img/news_sje.jpg";
+import allCampanhaVacinacao from "../../assets/img/news_vacinacao.jpg";
+import allConsumoAgua from "../../assets/img/news_agua.jpg";
+import allTransparenciaPortal from "../../assets/img/news_portal.png";
+import allRedesSociais from "../../assets/img/news_agua.jpg";
+import allSaudavel from "../../assets/img/news_frutas.jpg";
+import "../../App.css";
 
 const Home = () => {
   const [newsData] = useState([

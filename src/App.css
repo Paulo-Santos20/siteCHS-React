@@ -717,3 +717,471 @@ h2 {
     width: 100%;
   }
 }
+
+
+/*--------------------------- Institucional ------------------/*
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+/*=============== MEDIA QUERIES ===============*/
+/* For small devices */
+@media screen and (max-width: 425px) {
+  .mvv {
+    width: 95%;
+  }
+
+  .proposito {
+    width: 95%;
+  }
+
+  .responsabilidade {
+    width: 95%;
+  }
+
+  .mvv > div {
+    width: 100%;
+  }
+
+  h3 {
+    padding: 10px;
+  }
+  .p {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .first,
+  .second {
+    justify-content: center;
+    align-items: center;
+  }
+  .mvv {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    margin: 0;
+  }
+  .section {
+    padding: 7rem 0 2rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* For large devices */
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .proposito {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }  
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 450;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+a {
+  color: inherit;
+}
+
+/* .section SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline {
+  padding: 20px 0;
+}
+
+.section h1 {
+  font-size: 5.5rem;
+}
+
+.section h2 {
+  font-size: 1.3rem;
+}
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+a {
+  color: inherit;
+}
+
+/* .section SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.section {
+  background: #a7a7a723;
+  padding:0;
+}
+
+.section .container {
+  width: 100%;
+  max-width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline-section{
+	background-color: #ebedee;
+	min-height: 100vh;
+	padding: 10px 15px;
+}
+.timeline-items{
+	max-width: 1000px;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.timeline-items::before{
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: #000000;
+	left: calc(50% - 1px);
+}
+.timeline-item{
+	margin-bottom: 10px;
+	width: 100%;
+	position: relative;
+}
+.timeline-item:last-child{
+	margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+	text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+.timeline-dot{
+	height: 16px;
+	width: 16px;
+	background-color: var(--first-color);
+	position: absolute;
+	left: calc(50% - 8px);
+	border-radius: 50%;
+	top:10px;
+}
+.timeline-date{
+	font-size: 18px;
+	color: var(--first-color-alt);
+	margin:6px 0 15px;
+}
+.timeline-content{
+    background-color: #ffffff;
+	padding: 20px;
+	border-radius: 5px;
+}
+.timeline-content h3{
+    font-size: 20px;
+	color: #ffffff;
+	margin:0 0 10px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.timeline-content p{
+    color: #000000;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+/* responsive */
+@media(max-width: 767px){
+	.timeline-items::before{
+		left: 7px;
+	}
+	.timeline-item:nth-child(odd){
+		padding-right: 0;
+		text-align: left;
+	}
+	.timeline-item:nth-child(odd),
+	.timeline-item:nth-child(even){
+		padding-left: 37px;
+	}
+	.timeline-dot{
+		left:0;
+	}
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin: 50px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  display: flex;
+  color: #335899;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 35px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  margin: 30px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #2773a7;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  padding: 2.5rem 0 2rem;
+}
+
+.first {
+  margin-top: 130px;
+}
+
+.responsabilidade {
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 35px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  background-color: #ffffff;
+  color: #2773a7;
+  margin: 0px 50px 0px 50px;
+  width: 25vw;
+  border-radius: 20px;
+}
+
+h6 {
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #335899;
+  padding: 10px;
+  background-color: rgba(194, 230, 255, 0.506);
+  width: 85%;
+  border-radius: 8px;
+  margin: 0px 50px 0px 50px;
+  font-weight: 600;
+}
+
+h7 {
+  font-size: 20px;
+  justify-content: start;
+  align-items: start;
+  display: flex;
+  padding: 10px;
+  width: 90%;
+  margin-left: 40px;
+  border-radius: 8px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.mvv p,.mvv li, .responsabilidade  {
+  font-size: 19px;
+  margin-top: 0.5em;
+  text-align: justify;
+  width: 90%;
+}
+
+.responsabilidade p{
+  font-size: 19px;
+  margin-top: 0.5em;
+  text-align: justify;
+}
+
+.mvv p {
+  width: 80%;  
+}
+p{
+  font-size: 19px;
+  margin-left: 50px;
+  margin-top: 0.5em;
+  text-align: justify;
+}
+
+.fundo {
+  background-image: url(./assets/img/papa.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.proposito img {
+  margin-top: -40px;
+}
+
+/* Mvv= Missão,Valores e Visão
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.mvv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.mvv > div {
+  width: calc((100% / 3) - 10px);
+}
+
+.missao,
+.visao {
+  text-align: justify;
+}
+
+h4 img {
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 18px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 25px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 15px;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h5 {
+    font-size: 18px;
+    margin: auto;
+    width: 100%;
+  }
+
+  h6 {
+    font-size: 18px;
+    margin: auto;
+    width: 100%;
+  }
+
+  p {
+    font-size: 14px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .mvv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  h4 {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .mvv > div {
+    width: 100%;
+  }
+
+  .nav__item .black_white {
+    width: 75%;
+  }
+
+  .responsabilidade h3 {
+    margin: 20px 0px 20px 0px;
+  }
+
+  .responsabilidade p {
+    margin-bottom: 50px;
+  }
+
+  h7 {
+    margin: 0;
+    width: 95%;
+  }
+}
