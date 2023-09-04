@@ -105,13 +105,15 @@ const Home = () => {
               </div>
             ))}
           </div>
-          <a
-            className="slot2handle"
-            href="Noticias.html"
-            style={{ textAlign: "center" }}
-          >
-            Ver Todas
-          </a>
+          <div className="centerslot2">
+            <a
+              className="slot2handle"
+              href="Noticias.html"
+              style={{ textAlign: "center" }}
+            >
+              Ver Todas
+            </a>
+          </div>
         </div>
       </div>
     </div>

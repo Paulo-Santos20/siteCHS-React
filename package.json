@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "@types/jquery": "^3.5.18"
+    "@types/jquery": "^3.5.18",
+    "@types/slick-carousel": "^1.6.37"
   }
 }
